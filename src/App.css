@@ -1,0 +1,35 @@
+.app{
+  width: 95vw;
+  height: 50vh;
+  background-color: rgb(233, 243, 44);
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.container{
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  text-align: center;
+}
+
+.bar{
+  width: 1.8rem;
+  height: 6rem;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.bar:nth-child(odd){
+  background-color: black;
+  color: white;
+}
+
+.active{
+  height: 18rem;
+}
